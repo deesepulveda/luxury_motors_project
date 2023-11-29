@@ -1,0 +1,15 @@
+.mainList_container_main {
+  width: 100vw;
+  height: 200rem;
+  border: 1px solid white;
+}
+
+.mainList_container_listings {
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
