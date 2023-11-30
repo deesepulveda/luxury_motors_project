@@ -1,6 +1,6 @@
 .mainList_container_main {
   width: 100vw;
-  height: 200rem;
+  height: auto;
   border: 1px solid white;
 }
 
@@ -12,4 +12,20 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid green;
+}
+
+.mainList_box {
+  width: 25rem;
+  height: 40rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orangered;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.75rem;
 }
