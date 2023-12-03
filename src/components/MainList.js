@@ -5,15 +5,8 @@ import { data } from "../data/Data";
 const MainList = () => {
   const [carData, setCarData] = useState(data);
 
-  const newData = (make) => {
-    setCarData(
-      data.filter((item) => {
-        return item.make === make;
-      })
-    );
-  };
+  // Uniquely Set/Sort Make For Select Options
 
-  // Uniquely Set/Sort Brand Data from Data
   const brandsArr = new Set(
     data
       .map((item) => {
@@ -39,18 +32,21 @@ const MainList = () => {
   return (
     <div className="mainList_container_main">
       <div className="mainList_container_filter">
+        {/* Select Filter */}
         <select
           name="make"
           id=""
           className="filter_box_make"
           onChange={filterMake}
         >
+          {/* Options from Select Filter */}
           <option value="all">all</option>
           {Array.from(brandsArr).map((item, index) => (
             <option key={index}>{item}</option>
           ))}
         </select>
       </div>
+      {/* Rendering Data */}
       <div className="mainList_container_listings">
         {carData.map((item) => (
           <div className="mainList_box" key={item.id}>
