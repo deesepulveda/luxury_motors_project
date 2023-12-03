@@ -47,9 +47,9 @@ const MainList = () => {
         </select>
       </div>
       {/* Rendering Data */}
-      <div className="mainList_container_listings">
+      <div className="mainList_container_listings_wrapper">
         {carData.map((item) => (
-          <div className="mainList_box" key={item.id}>
+          <div className="mainList_card" key={item.id}>
             <li>
               <p className="item_year_model">
                 {item.year} {item.make}
