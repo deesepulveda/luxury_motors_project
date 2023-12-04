@@ -140,7 +140,7 @@ export const data = [
     engine: "4.0 liter 8-cylinder",
     horsepower: "621 hp",
     torque: "627 lb-ft",
-    turbo: "turbo",
+    turbo: "twin-turbo",
   },
 
   {

@@ -1,22 +1,52 @@
 .mainList_container_main {
   width: 100vw;
-  height: 200rem;
+  height: auto;
+  overflow: hidden;
 }
+
+/* Filter Section */
 
 .mainList_container_filter {
   width: 100%;
-  height: 15rem;
+  height: 30rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.filter_box_make {
-  width: 25rem;
-  height: 5rem;
-  text-transform: uppercase;
-  font-size: 2rem;
+/* Styling for each filter box */
+
+.mainList_container_filter_box {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+/* Filter Box to Sort by Make */
+
+.filter_box_title {
+  margin-bottom: 1rem;
+  font-size: 1.65rem;
+  letter-spacing: 0.2rem;
+}
+
+.filter_box_select {
+  width: 26rem;
+  height: 3rem;
+  text-transform: uppercase;
+  font-size: 1.65rem;
+}
+
+.filter_box_make > option {
+  color: #fff;
+  letter-spacing: 0.2rem;
+  background-color: #000;
+}
+
+/* Rendered Data Container */
 
 .mainList_container_listings_wrapper {
   width: 100%;
@@ -28,6 +58,8 @@
   align-items: flex-start;
   align-content: flex-start;
 }
+
+/* Styling for Each Card */
 
 .mainList_card {
   width: 25rem;
@@ -62,8 +94,36 @@ li {
 
 /* Media Queries */
 
+@media (min-width: 768px) {
+  .mainList_container_filter {
+    width: 100%;
+    height: 20rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainList_container_filter_box {
+    margin: 0 2rem;
+  }
+}
+
 @media (min-width: 1280px) {
+  .mainList_container_main {
+    width: 100vw;
+    min-height: 80rem;
+  }
+
+  .mainList_container_filter,
   .mainList_container_listings_wrapper {
-    padding: 5rem;
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+
+  .filter_box_make {
+    width: 30rem;
+    height: 4rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
   }
 }

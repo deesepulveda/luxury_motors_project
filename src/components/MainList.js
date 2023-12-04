@@ -32,19 +32,41 @@ const MainList = () => {
   return (
     <div className="mainList_container_main">
       <div className="mainList_container_filter">
-        {/* Select Filter */}
-        <select
-          name="make"
-          id=""
-          className="filter_box_make"
-          onChange={filterMake}
-        >
-          {/* Options from Select Filter */}
-          <option value="all">all</option>
-          {Array.from(brandsArr).map((item, index) => (
-            <option key={index}>{item}</option>
-          ))}
-        </select>
+        <div className="mainList_container_filter_box">
+          {/* Select Filter Title */}
+          <div className="filter_box_title">Sort by Make</div>
+          {/* Select Filter */}
+          <select
+            name="make"
+            id=""
+            className="filter_box_select"
+            onChange={filterMake}
+          >
+            {/* Options from Select Filter */}
+            <option value="all">all</option>
+            {Array.from(brandsArr).map((item, index) => (
+              <option key={index} value={item.make}>
+                {item}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="mainList_container_filter_box">
+          {/* Select Filter Title */}
+          <div className="filter_box_title">Sort by Price</div>
+          {/* Select Filter */}
+          <select
+            name="make"
+            id=""
+            className="filter_box_select"
+            onChange={filterMake}
+          >
+            {/* Options from Select Filter */}
+            <option value="all">all</option>
+            <option value="low">low to high</option>
+            <option value="high">high to low</option>
+          </select>
+        </div>
       </div>
       {/* Rendering Data */}
       <div className="mainList_container_listings_wrapper">
