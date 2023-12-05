@@ -79,7 +79,7 @@ li {
 }
 
 .data_year_model {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
@@ -105,6 +105,10 @@ li {
 
   .mainList_container_filter_box {
     margin: 0 2rem;
+  }
+
+  .mainList_container_listings_wrapper {
+    padding-bottom: 10rem;
   }
 }
 

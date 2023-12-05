@@ -1,5 +1,9 @@
 .featured_container {
   width: 100vw;
   height: 60rem;
-  border: 1px solid red;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
 }

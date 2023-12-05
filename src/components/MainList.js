@@ -73,12 +73,12 @@ const MainList = () => {
         {carData.map((item) => (
           <div className="mainList_card" key={item.id}>
             <li>
-              <p className="item_year_model">
+              <p className="data_year_model">
                 {item.year} {item.make}
               </p>
-              <p className="item_model">{item.model}</p>
-              <p className="item_trim">{item.trim}</p>
-              <p className="item_price">{item.price}</p>
+              <p className="data_model">{item.model}</p>
+              <p className="data_trim">{item.trim}</p>
+              <p className="data_price">{item.price}</p>
             </li>
           </div>
         ))}
