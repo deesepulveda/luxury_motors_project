@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/luxury_motors_project/static/css/main.9660c31b.css",
-    "main.js": "/luxury_motors_project/static/js/main.b7ee8970.js",
+    "main.css": "/luxury_motors_project/static/css/main.263d5d44.css",
+    "main.js": "/luxury_motors_project/static/js/main.606e669d.js",
     "static/js/787.89248406.chunk.js": "/luxury_motors_project/static/js/787.89248406.chunk.js",
     "static/media/3pdesign-03soho.jpg": "/luxury_motors_project/static/media/3pdesign-03soho.926aee393bff9c206cd9.jpg",
     "index.html": "/luxury_motors_project/index.html",
-    "main.9660c31b.css.map": "/luxury_motors_project/static/css/main.9660c31b.css.map",
-    "main.b7ee8970.js.map": "/luxury_motors_project/static/js/main.b7ee8970.js.map",
+    "main.263d5d44.css.map": "/luxury_motors_project/static/css/main.263d5d44.css.map",
+    "main.606e669d.js.map": "/luxury_motors_project/static/js/main.606e669d.js.map",
     "787.89248406.chunk.js.map": "/luxury_motors_project/static/js/787.89248406.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9660c31b.css",
-    "static/js/main.b7ee8970.js"
+    "static/css/main.263d5d44.css",
+    "static/js/main.606e669d.js"
   ]
 }
