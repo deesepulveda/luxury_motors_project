@@ -115,13 +115,16 @@ li {
 @media (min-width: 1280px) {
   .mainList_container_main {
     width: 100vw;
-    min-height: 80rem;
   }
 
   .mainList_container_filter,
   .mainList_container_listings_wrapper {
     max-width: 140rem;
     margin: 0 auto;
+  }
+
+  .mainList_container_listings_wrapper {
+    min-height: 100rem;
   }
 
   .filter_box_make {
