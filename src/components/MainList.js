@@ -31,6 +31,9 @@ const MainList = () => {
 
   return (
     <div className="mainList_container_main">
+      <div className="mainList_title_box">
+        <h2 className="mainList_title">search our inventory</h2>
+      </div>
       <div className="mainList_container_filter">
         <div className="mainList_container_filter_box">
           {/* Select Filter Title */}
