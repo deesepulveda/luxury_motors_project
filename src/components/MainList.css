@@ -53,10 +53,17 @@
   height: 100%;
   padding: 1rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+}
+
+.mainList_container_listings_container {
+  width: 54rem;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* Styling for Each Card */
@@ -136,12 +143,15 @@ li {
 
   .mainList_container_filter,
   .mainList_container_listings_wrapper {
-    max-width: 140rem;
     margin: 0 auto;
   }
 
   .mainList_container_listings_wrapper {
-    min-height: 100rem;
+    min-height: 200rem;
+  }
+
+  .mainList_container_listings_container {
+    width: 108rem;
   }
 
   .filter_box_make {
