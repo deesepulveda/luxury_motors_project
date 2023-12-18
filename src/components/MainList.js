@@ -72,14 +72,19 @@ const MainList = () => {
       <div className="mainList_container_listings_wrapper">
         {carData.map((item) => (
           <div className="mainList_card" key={item.id}>
-            <li>
-              <p className="data_year_model">
-                {item.year} {item.make}
-              </p>
-              <p className="data_model">{item.model}</p>
-              <p className="data_trim">{item.trim}</p>
-              <p className="data_price">{item.price}</p>
-            </li>
+            <div className="data_image_box">
+              <img src={item.imgUrl} alt="" />
+            </div>
+            <div className="data_data_box">
+              <li>
+                <p className="data_year_model">
+                  {item.year} {item.make}
+                </p>
+                <p className="data_model">{item.model}</p>
+                <p className="data_trim">{item.trim}</p>
+                <p className="data_price">{item.price}</p>
+              </li>
+            </div>
           </div>
         ))}
       </div>

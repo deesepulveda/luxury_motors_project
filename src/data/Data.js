@@ -13,6 +13,7 @@ export const data = [
     horsepower: "261 hp",
     torque: "273 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -29,6 +30,7 @@ export const data = [
     horsepower: "261 hp",
     torque: "273 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -45,6 +47,7 @@ export const data = [
     horsepower: "349 hp",
     torque: "369 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -61,6 +64,7 @@ export const data = [
     horsepower: "335 hp",
     torque: "369 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -77,6 +81,7 @@ export const data = [
     horsepower: "444 hp",
     torque: "442 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -93,6 +98,7 @@ export const data = [
     horsepower: "335 hp",
     torque: "369 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -109,6 +115,7 @@ export const data = [
     horsepower: "335 hp",
     torque: "369 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -125,6 +132,7 @@ export const data = [
     horsepower: "444 hp",
     torque: "442 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -141,6 +149,7 @@ export const data = [
     horsepower: "621 hp",
     torque: "627 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -157,6 +166,7 @@ export const data = [
     horsepower: "473 hp",
     torque: "406 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -173,6 +183,7 @@ export const data = [
     horsepower: "503 hp",
     torque: "479 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -189,6 +200,7 @@ export const data = [
     horsepower: "503 hp",
     torque: "479 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -205,6 +217,7 @@ export const data = [
     horsepower: "375 hp",
     torque: "398 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -221,6 +234,7 @@ export const data = [
     horsepower: "375 hp",
     torque: "383 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -237,6 +251,7 @@ export const data = [
     horsepower: "536 hp",
     torque: "553 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -253,6 +268,7 @@ export const data = [
     horsepower: "429 hp",
     torque: "384 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -270,6 +286,7 @@ export const data = [
     horsepower: "362 hp + 148 hp (electric)",
     torque: "369 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -286,6 +303,7 @@ export const data = [
     horsepower: "496 hp",
     torque: "516 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -302,6 +320,7 @@ export const data = [
     horsepower: "362 hp",
     torque: "369 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -319,6 +338,7 @@ export const data = [
     horsepower: "429 hp",
     torque: "384 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -335,6 +355,7 @@ export const data = [
     horsepower: "577 hp",
     torque: "590 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -351,6 +372,7 @@ export const data = [
     horsepower: "630 hp",
     torque: "664 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -367,6 +389,7 @@ export const data = [
     horsepower: "348 hp",
     torque: "368 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -383,6 +406,7 @@ export const data = [
     horsepower: "348 hp",
     torque: "368 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -399,6 +423,7 @@ export const data = [
     horsepower: "379 hp",
     torque: "331 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -415,6 +440,7 @@ export const data = [
     horsepower: "379 hp",
     torque: "331 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -431,6 +457,7 @@ export const data = [
     horsepower: "379 hp",
     torque: "331 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -447,6 +474,7 @@ export const data = [
     horsepower: "443 hp",
     torque: "390 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -463,6 +491,7 @@ export const data = [
     horsepower: "443 hp",
     torque: "390 lb-ft",
     turbo: "twin-turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -479,6 +508,7 @@ export const data = [
     horsepower: "228 hp",
     torque: "258 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -495,6 +525,7 @@ export const data = [
     horsepower: "228 hp",
     torque: "258 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 
   {
@@ -511,5 +542,6 @@ export const data = [
     horsepower: "241 hp",
     torque: "273 lb-ft",
     turbo: "turbo",
+    imgUrl: "https://s3-prod.autonews.com/s3fs-public/audi_r8-MAIN.jpg",
   },
 ];
